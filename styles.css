@@ -1,7 +1,25 @@
-#main-logo {
-    margin: 0 auto;
-    display: block;
-    padding-bottom: 30px;
+#google-logo {
+    width: 90px;
+    height: 30px;
+}
+
+.header {
+    display: flex;
+    height: 123px;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    border-bottom: 1px solid black;
+}
+
+/* Top part of header */
+.header-top {
+    display: flex;
+    height: 65px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
 }
 
 .search-bar {
@@ -27,6 +45,7 @@
     padding: 0px 13px 0px 13px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .search-text-field {
@@ -45,3 +64,12 @@
     width: 32px;
     border-radius: 35px;
 }
+/* End top part of header */
+
+/* Bottom part of header */
+.header-bottom {
+    display: flex;
+    height: 58px;
+}
+
+/* End bottom part of header */
